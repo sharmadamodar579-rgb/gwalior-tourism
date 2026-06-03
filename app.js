@@ -129,6 +129,188 @@ const landmarks = [
       "Taxis can drop you right at the entrance gate of the tomb complex."
     ],
     trivia: "According to local legend, singers and musicians visit the tomb to chew the leaves of the tamarind tree growing next to Tansen's grave. It is believed that eating these leaves sweetens the voice and gives the singer perfect pitch."
+  },
+  {
+    id: 5,
+    name: "Saas Bahu Temple (Sahasrabahu)",
+    category: "temples",
+    built: "11th Century AD",
+    rating: 4.8,
+    coords: [26.2292, 78.1724],
+    timings: "06:00 AM - 05:30 PM",
+    fee: "Included in Gwalior Fort ticket",
+    image: "assets/saas_bahu_temple.png",
+    description: "An architectural marvel constructed in 1092 AD, this temple is dedicated to Lord Vishnu (Sahasrabahu, meaning the one with a thousand arms). Popularly known as Saas Bahu Temple, it exhibits intricately carved pillars, ceilings, and figures of deities without using mortar.",
+    highlights: [
+      "Beautiful twin temple structure (larger and smaller temples)",
+      "Highly intricate carvings on ceilings and beams representing ancient epics",
+      "No mortar construction; held together strictly by gravity and interlocking stone joinery",
+      "Scenic viewpoint overlooking the eastern valley of Gwalior"
+    ],
+    history_long: "The Sahasrabahu Temple was built by King Mahipala of the Kachchhapaghata dynasty in 1092 AD. The name 'Saas Bahu' is a local colloquial corruption of 'Sahasrabahu' (the thousand-armed form of Vishnu). According to folklore, the larger temple ('Saas' or mother-in-law) was constructed for the queen who worshipped Lord Vishnu, and the smaller temple ('Bahu' or daughter-in-law) was built nearby for the prince's wife who worshipped Lord Shiva.",
+    tips: [
+      "Check out the center ceiling of the main hall; the carving of the lotus is breathtaking.",
+      "The site gets crowded with tour groups in midday; early morning offers the best photography light.",
+      "Hiring a guide or reading descriptions beforehand will help you locate the hidden stories in the stone friezes.",
+      "Ensure you don't climb or touch the delicate stone pillars to preserve them."
+    ],
+    trivia: "Despite its local name 'Saas Bahu' (Mother-in-law & Daughter-in-law), the temples have no historical connection to family relations and were entirely dedicated to Vishnu and Shiva. The interlocking style of stone masonry has allowed it to withstand earthquakes for nearly a thousand years."
+  },
+  {
+    id: 6,
+    name: "Teli Ka Mandir",
+    category: "temples",
+    built: "8th - 9th Century AD",
+    rating: 4.7,
+    coords: [26.2248, 78.1698],
+    timings: "06:00 AM - 05:30 PM",
+    fee: "Included in Gwalior Fort ticket",
+    image: "assets/teli_ka_mandir.png",
+    description: "The tallest structure inside the Gwalior Fort complex, rising to a height of 100 feet. This temple is famous for its architectural style, which blends a Dravidian (Southern) barrel-vaulted roof (Valabhi style) with Northern Indian (Nagara) decorative details on its outer walls.",
+    highlights: [
+      "100-foot-tall monumental structure",
+      "Unique combination of Dravidian barrel vault roof and Nagara wall patterns",
+      "Intricately carved high-relief gateway depicting river goddesses Ganga and Yamuna",
+      "Mysterious history regarding its naming and original deity"
+    ],
+    history_long: "Teli Ka Mandir is the oldest surviving temple inside the Gwalior Fort, built during the Pratihara Empire (likely during the reign of Mihira Bhoja in the 8th or 9th century AD). The name 'Teli Ka Mandir' translates to 'Oilman's Temple', which folklore attributes to oil merchants funding its construction. During the British era, the temple was briefly used as a soda factory and warehouse before being restored to its glory by Major Keith in 1881.",
+    tips: [
+      "Stand right at the gateway to capture the scale of the entrance, which is carved with elaborate figures.",
+      "Look at the roof shape; it resembles a Buddhist chaitya hall or a South Indian Gopuram.",
+      "There are no active deities inside, but the architectural reliefs on the walls are deeply artistic.",
+      "Visit in the late afternoon to see the sandstone glow in warm orange light."
+    ],
+    trivia: "Teli Ka Mandir is one of the very few temples in North India that features a South Indian Dravidian style barrel roof. This indicates that Gwalior was a meeting point for architects and sculptors from across the subcontinent."
+  },
+  {
+    id: 7,
+    name: "Gurudwara Data Bandi Chhor Sahib",
+    category: "temples",
+    built: "1619 AD (Modern shrine 1970s)",
+    rating: 4.9,
+    coords: [26.2255, 78.1738],
+    timings: "04:00 AM - 10:00 PM",
+    fee: "Free Entry",
+    image: "assets/data_bandi_chhor.png",
+    description: "A famous, historic Sikh shrine located on the Gwalior Fort hill. It is built to commemorate the release of the sixth Sikh Guru, Guru Hargobind Sahib Ji, who was imprisoned in the Gwalior Fort by Mughal Emperor Jahangir and managed to secure the freedom of 52 Hindu kings.",
+    highlights: [
+      "Gleaming white marble architecture with large gold domes",
+      "Beautiful sacred pond (Sarovar) and quiet prayer halls",
+      "Langar (free community kitchen) serving hot meals to all visitors daily",
+      "Historically rich museum displaying weapons and paintings of Sikh heritage"
+    ],
+    history_long: "In 1619, Mughal Emperor Jahangir imprisoned Guru Hargobind Ji in the Gwalior Fort out of fear of his growing influence. During his captivity, the Guru won the respect of the jailers and the Emperor. When Jahangir agreed to release the Guru, the Guru refused to leave unless the 52 imprisoned rajput kings were freed as well. Jahangir agreed but set a condition: only those who could hold onto the Guru's cloak as he walked out would go free. The Guru had a special cloak made with 52 tassels, allowing all 52 kings to walk out to freedom. Hence, he was called 'Data Bandi Chhor' (The Liberator of Prisoners).",
+    tips: [
+      "Partake in the daily Langar; it is a heartwarming community experience of equality and service.",
+      "Cover your head before entering the Gurudwara premises (scarves are provided at the gate for free).",
+      "Take a peaceful walk around the holy pond (Sarovar) to experience the serene atmosphere.",
+      "The Gurudwara looks spectacular at night when it is fully lit."
+    ],
+    trivia: "The festival of Diwali is celebrated by Sikhs as 'Bandi Chhor Divas' to commemorate the day Guru Hargobind Ji returned to Amritsar after freeing the 52 kings from Gwalior Fort."
+  },
+  {
+    id: 8,
+    name: "Gujari Mahal Museum",
+    category: "historical",
+    built: "15th Century AD",
+    rating: 4.6,
+    coords: [26.2345, 78.1729],
+    timings: "10:00 AM - 05:00 PM (Closed Mondays)",
+    fee: "₹20 (Indians) | ₹250 (Foreigners)",
+    image: "assets/gujari_mahal.png",
+    description: "A majestic sandstone palace built at the foot of Gwalior Fort by Raja Man Singh Tomar for his favorite queen Mrignayani (a Gujjar peasant woman). Today, it houses Gwalior's Archaeological Museum, showcasing rare sculptures dating from the 1st century BC.",
+    highlights: [
+      "Sandstone fortress-palace with historic inner courtyard and gates",
+      "The famous 'Shalabhanjika' statue (often called the Indian Mona Lisa)",
+      "Dozens of ancient statues representing Gupta, Kushan, and Pratihara art eras",
+      "Collection of historical coins, inscriptions, and ancient stone weapons"
+    ],
+    history_long: "Raja Man Singh Tomar built the palace in the 15th century for his ninth wife, Mrignayani, who belonged to the Gujjar clan. She demanded a separate palace with a supply of water from the nearby Rai River. When the Tomar dynasty fell, the palace was used as a fort outpost. In 1920, the princely state of Gwalior converted the palace into an archaeological museum to store and display the region's ancient artistic discoveries.",
+    tips: [
+      "The museum is closed on Mondays; make sure to plan accordingly.",
+      "To view the famous Shalabhanjika sculpture, you must ask the museum curator as it is kept in a secure vault for preservation.",
+      "The stone carvings in the central open courtyard are excellent subjects for detail photography.",
+      "A nominal camera fee is charged at the counter."
+    ],
+    trivia: "The Shalabhanjika sculpture is a masterpieces of Indian art, showing a celestial damsel (yakshi) standing under a branch. It is kept locked in a vault and was once flown to France for an international exhibition under high security."
+  },
+  {
+    id: 9,
+    name: "Rani Laxmi Bai Samadhi",
+    category: "cultural",
+    built: "1858 AD",
+    rating: 4.6,
+    coords: [26.2208, 78.1774],
+    timings: "06:00 AM - 08:00 PM",
+    fee: "Free Entry",
+    image: "assets/laxmibai_samadhi.png",
+    description: "A peaceful garden memorial located in the Phool Bagh area, dedicated to Rani Laxmi Bai of Jhansi. She was one of the leading figures of the Indian Rebellion of 1857 and died fighting British forces in Gwalior at the age of 29.",
+    highlights: [
+      "Statue of Rani Laxmi Bai riding a horse with her sword raised",
+      "A simple and quiet cenotaph (Samadhi) where her final rites were performed",
+      "Beautifully manicured gardens and quiet walking tracks",
+      "Nearby historic Phool Bagh structures and parks"
+    ],
+    history_long: "Rani Laxmi Bai fled to Gwalior after Jhansi fell to British forces. Along with Tatya Tope, she captured the Gwalior Fort. On June 17, 1858, dressed in soldier's attire, she fought valiantly against the British Hussars near Kotah-ki-Sarai in Gwalior. Mortally wounded, she did not want the British to capture her body, so she requested local sages to cremate her immediately. Her samadhi was built at the site of her cremation.",
+    tips: [
+      "The memorial is located in the center of the city inside Phool Bagh, making it very easy to reach.",
+      "Combine this visit with Gwalior Zoo and Phool Bagh Palace, which are just a walk away.",
+      "Spend some quiet time in the surrounding park, which is popular for evening walks.",
+      "Read the information boards around the statue to learn about her final battle in Gwalior."
+    ],
+    trivia: "Rani Laxmi Bai's final battle took place near the Gwalior canal. She was cremated by local villagers in a pile of grass under a tamarind tree so that the advancing British forces could not identify or touch her body."
+  },
+  {
+    id: 10,
+    name: "Maharaj Bada (Jiwaji Chowk)",
+    category: "cultural",
+    built: "19th - 20th Century",
+    rating: 4.5,
+    coords: [26.2081, 78.1593],
+    timings: "09:00 AM - 10:00 PM (Best in evening)",
+    fee: "Free Entry",
+    image: "assets/maharaj_bada.png",
+    description: "The vibrant main city square of Gwalior, Maharaj Bada is famous for housing seven historical buildings representing seven different architectural styles—including Roman, Gothic, Greek, Maratha, and Indo-Islamic. It is the commercial heart of the city.",
+    highlights: [
+      "Seven historical buildings of different architectures around a single square",
+      "Victoria Market building, a majestic Gothic structure",
+      "The central garden with a large statue of Maharaja Jiwajirao Scindia",
+      "Vibrant local shops selling famous Chanderi sarees and Gwalior snacks"
+    ],
+    history_long: "Developed by the Scindia rulers as the civic center of Gwalior, Jiwaji Chowk (commonly called Maharaj Bada) was designed to show the dynasty's global architectural taste. Around the circular plaza, they built the Gwalior State Bank (Roman style), the Victoria Market (Gothic style), the Post Office (Grecian style), the Town Hall (Indo-Saracenic), and palaces in Maratha and Rajasthani styles. Today, it remains the bustling heart of commerce.",
+    tips: [
+      "The Bada is highly congested during peak hours; visiting on foot or using an auto-rickshaw is highly recommended.",
+      "It is the best place in Gwalior to shop for handloom Chanderi and Maheshwari sarees at local showrooms.",
+      "Taste the street food around the Bada, especially the spicy kachoris and Gwalior's famous sweets.",
+      "Go in the evening when the heritage buildings are beautifully lit up."
+    ],
+    trivia: "Maharaj Bada is one of the very few public squares in the world where you can stand in a single spot and turn 360 degrees to see seven completely different architectural styles spanning Europe and Asia."
+  },
+  {
+    id: 11,
+    name: "Tigra Dam & Lake",
+    category: "cultural",
+    built: "1916 AD",
+    rating: 4.4,
+    coords: [26.2167, 77.9942],
+    timings: "09:00 AM - 05:00 PM",
+    fee: "Free entry to dam | Boating starting from ₹50",
+    image: "assets/tigra_dam.png",
+    description: "A freshwater reservoir and dam situated on the Sank River, about 23 km from Gwalior city. Tigra Dam is Gwalior's favorite outdoor and recreational getaway, offering beautiful lakeside scenery, bird watching, and exciting boating activities.",
+    highlights: [
+      "Massive freshwater lake surrounded by low-lying rocky hills",
+      "Exciting boating options including speedboats, paddleboats, and houseboats",
+      "Popular spot for bird watching, especially during winter months",
+      "Perfect location for family picnics and sunset viewing"
+    ],
+    history_long: "Tigra Dam was constructed in 1916 under the rule of Maharaja Madhavrao Scindia to provide drinking water to the growing city of Gwalior and irrigate nearby agricultural lands. The dam faced a catastrophic structural failure in 1917 shortly after construction due to water pressure, causing major flooding. It was subsequently redesigned and rebuilt in 1929 with advanced masonry reinforcements.",
+    tips: [
+      "The dam is situated 23 km west of the city; it is best to hire a private taxi or drive your own vehicle.",
+      "Visit during the winter months (November to February) to see migratory birds from Siberia.",
+      "Try the speedboat ride for a thrilling experience across the massive lake.",
+      "Carry your own picnic snacks and mats as dining facilities near the dam are basic."
+    ],
+    trivia: "Tigra Dam's initial breach in 1917 released billions of gallons of water, flooding the lower parts of Gwalior. The reconstruction used an innovative curved gravity masonry wall that remains fully operational to this day."
   }
 ];
 
