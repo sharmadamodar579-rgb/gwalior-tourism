@@ -725,6 +725,38 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // Privacy Modal event listeners
+  const openPrivacyLink = document.getElementById("open-privacy-link");
+  const privacyModal = document.getElementById("privacy-modal");
+  const closePrivacyBtns = [
+    document.getElementById("close-privacy-btn-top"),
+    document.getElementById("privacy-close-action-btn")
+  ];
+
+  if (openPrivacyLink) {
+    openPrivacyLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      privacyModal.classList.add("active");
+    });
+  }
+
+  closePrivacyBtns.forEach(btn => {
+    if (btn) {
+      btn.addEventListener("click", () => {
+        privacyModal.classList.remove("active");
+      });
+    }
+  });
+
+  // Privacy Modal outside click to close
+  if (privacyModal) {
+    privacyModal.addEventListener("click", (e) => {
+      if (e.target === privacyModal) {
+        privacyModal.classList.remove("active");
+      }
+    });
+  }
+
   // Modal Tabs event listeners
   const tabBtns = document.querySelectorAll(".tab-btn");
   tabBtns.forEach(btn => {
@@ -893,6 +925,13 @@ function setActiveLandmark(id) {
   document.getElementById("active-timings").innerText = place.timings;
   document.getElementById("active-fee").innerText = place.fee;
   document.getElementById("active-coords").innerText = `GPS: ${place.coords[0]}° N, ${place.coords[1]}° E`;
+
+  // Update affiliate link to search for hotels near the specific landmark name
+  const landmarkSearch = encodeURIComponent(place.name + " Gwalior");
+  const affiliateBtn = document.getElementById("booking-affiliate-btn");
+  if (affiliateBtn) {
+    affiliateBtn.href = `https://www.booking.com/searchresults.html?ss=${landmarkSearch}`;
+  }
 
   // Dynamic list injection for highlights
   const highlightsContainer = document.getElementById("active-highlights");

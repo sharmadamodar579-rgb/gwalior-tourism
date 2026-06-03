@@ -150,12 +150,16 @@
                 </ul>
               </div>
 
-              <div class="active-actions">
+              <div class="active-actions" style="display: flex; gap: 1rem; flex-wrap: wrap;">
                 <button class="btn btn-primary" id="open-modal-btn">Explore Visual Details</button>
                 <button class="btn btn-outline" id="pan-map-btn">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C10 14.3 8 10 8 10c0-2.2 1.8-4 4-4s4 1.8 4 4c0 0-2 4.3-4 11.7z"/></svg>
                   Locate On Map
                 </button>
+                <a href="https://www.booking.com/searchresults.html?ss=Gwalior" target="_blank" class="btn" id="booking-affiliate-btn" style="background: linear-gradient(135deg, #003580, #0056b3); color: #fff; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; border: none; font-weight: 600; padding: 0.75rem 1.5rem; border-radius: 8px; transition: all 0.3s ease;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                  Book Hotels Nearby
+                </a>
               </div>
             </div>
           </div>
@@ -313,6 +317,38 @@
     </div>
   </div>
 
+  <!-- Privacy Policy Modal -->
+  <div class="modal-overlay" id="privacy-modal">
+    <div class="modal-container" style="max-width: 600px;">
+      <button class="modal-close-btn" id="close-privacy-btn-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      
+      <div style="padding: 2.5rem; color: var(--text-primary);">
+        <h2 style="margin-bottom: 1.5rem; color: var(--gold-primary);">Privacy Policy & Disclaimer</h2>
+        <div class="modal-scroll-area" style="max-height: 400px; overflow-y: auto; font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary);">
+          <p>Last updated: June 2026</p>
+          <p style="margin-top: 1rem;">Welcome to Gwalior Tourism. Your privacy is important to us. This Privacy Policy details how we collect, use, and safeguard information when you visit our website.</p>
+          
+          <h4 style="margin-top: 1.5rem; color: var(--gold-primary); font-size: 1rem;">1. Information Collection</h4>
+          <p>We do not collect personal identifying information (such as name, phone, or address) unless you choose to contact us directly. We analyze anonymous, aggregated usage data (such as page views and interactions) strictly to improve our travel guides.</p>
+          
+          <h4 style="margin-top: 1.5rem; color: var(--gold-primary); font-size: 1rem;">2. Cookies and Advertisements</h4>
+          <p>We use cookies to analyze web traffic. Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to this website or other websites. Google's use of advertising cookies enables it and its partners to serve ads to our users based on their visit to our sites and/or other sites on the Internet.</p>
+          
+          <h4 style="margin-top: 1.5rem; color: var(--gold-primary); font-size: 1rem;">3. Outbound Links</h4>
+          <p>Our website contains links to other external travel sites and mapping systems. We are not responsible for the privacy practices or contents of third-party websites.</p>
+          
+          <h4 style="margin-top: 1.5rem; color: var(--gold-primary); font-size: 1rem;">4. Disclaimer</h4>
+          <p>All information provided on this website (such as entry fees, timings, and guide tips) is for general informational purposes only. While we keep it accurate, we recommend verifying details with official ticketing counters before planning your journey.</p>
+        </div>
+        <div class="modal-footer-cta" style="margin-top: 2rem; border-top: 1px solid var(--glass-border); padding-top: 1.5rem; display: flex; justify-content: flex-end;">
+          <button class="btn btn-primary" id="privacy-close-action-btn">Close Policy</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Footer -->
   <footer class="main-footer">
     <div class="footer-container">
@@ -325,6 +361,7 @@
           <span class="social-circle">📸</span>
           <span class="social-circle">🌐</span>
         </div>
+        <p class="footer-contact" style="font-size: 0.82rem; margin-top: 1.25rem; color: var(--text-muted);">Contact: admin@gwalior-sightseeing.netlify.app</p>
       </div>
       
       <div class="footer-links-side">
@@ -335,6 +372,7 @@
             <li><a href="#explorer">Explore Landmarks</a></li>
             <li><a href="#itinerary">Itinerary Recommender</a></li>
             <li><a href="#history-section">Heritage Inscriptions</a></li>
+            <li><a href="#privacy" id="open-privacy-link">Privacy Policy</a></li>
           </ul>
         </div>
         <div class="links-column">
