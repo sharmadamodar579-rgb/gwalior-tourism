@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sharmadamodar579-rgb.github.io/gwalior-toursim/sitemap.xml
+Sitemap: https://sharmadamodar579-rgb.github.io/gwalior-tourism/sitemap.xml
