@@ -9,7 +9,7 @@ const landmarks = [
     coords: [26.2294, 78.1691],
     timings: "06:00 AM - 05:30 PM",
     fee: "₹75 (Indians) | ₹250 (Foreigners)",
-    image: "https://upload.wikimedia.org/wikipedia/commons/9/93/Main_entrance_%26_Man_Mandir%2C_Gwalior_Fort..jpg",
+    image: "assets/real_gwalior_fort.jpg",
     description: "Described as the 'gem amongst fortresses in India' by Emperor Babur, this imposing hill fort stands majestically on a sandstone plateau. The fort dominates the city skyline and holds structural masterpieces, representing spectacular Hindu architecture and military strength.",
     highlights: [
       "Man Mandir Palace's famous blue-tiled exterior walls",
@@ -35,7 +35,7 @@ const landmarks = [
     coords: [26.2045, 78.1692],
     timings: "10:00 AM - 05:00 PM (Closed Wednesdays)",
     fee: "₹150 (Indians) | ₹800 (Foreigners)",
-    image: "https://upload.wikimedia.org/wikipedia/commons/0/08/Jai_Vilas_Palace_%28_Scindia_Palace%29.jpg",
+    image: "assets/real_jai_vilas_palace.jpg",
     description: "A testament to grand nineteenth-century royal luxury, Jai Vilas Palace is a sprawling European-style estate. Built by Maharaja Jayajirao Scindia, it features Tuscan, Italian, and Corinthian architectural styles, housing a massive museum of royal artifacts.",
     highlights: [
       "The legendary miniature silver train that carries brandy and cigars on the dining table",
@@ -61,7 +61,7 @@ const landmarks = [
     coords: [26.2215, 78.1668],
     timings: "06:00 AM - 07:00 PM",
     fee: "Free Entry",
-    image: "https://upload.wikimedia.org/wikipedia/commons/e/e2/0121521_Gopachal_Patthar_ki_Baoli_Jain_monuments%2C_Gwalior_04.jpg",
+    image: "assets/real_gopachal_parvat.jpg",
     description: "Carved into the steep sandstone cliffs of the Gwalior Fort hill, Gopachal Parvat features a spectacular group of rock-cut Jain monuments. These caves contain colossal statues of Jain Tirthankaras in sitting and standing meditative postures.",
     highlights: [
       "Colossal 47-foot statue of the first Tirthankara, Lord Adinatha",
@@ -87,7 +87,7 @@ const landmarks = [
     coords: [26.2163, 78.2049],
     timings: "06:30 AM - 06:00 PM",
     fee: "Free Entry",
-    image: "https://upload.wikimedia.org/wikipedia/commons/b/b1/0121621_Sun_Temple%2C_Gwalior_Madhya_Pradesh_025.jpg",
+    image: "assets/real_sun_temple_surya_mandir.jpg",
     description: "A gorgeous modern sanctuary, the Gwalior Sun Temple is inspired by the world-famous Sun Temple at Konark, Odisha. Built of red sandstone and white marble, the temple is dedicated to the Sun God (Surya) and stands surrounded by manicured lawns.",
     highlights: [
       "Impeccable red sandstone exterior walls with intricate carvings of deities",
@@ -113,7 +113,7 @@ const landmarks = [
     coords: [26.2241, 78.1884],
     timings: "08:00 AM - 06:00 PM",
     fee: "Free Entry",
-    image: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tomb_of_Tansen_-Gwalior_-Madhya_Pradesh_-IMG_1207.jpg",
+    image: "assets/real_tomb_of_tansen.jpg",
     description: "The memorial of Mian Tansen, the legendary singer and musician of Akbar's court, lies in a quiet Mughal garden. Tansen is celebrated as the father of Hindustani classical music, and his tomb is a pilgrimage site for musicians.",
     highlights: [
       "Elegant Mughal sandstone mausoleum with delicate screen work (jaali)",
@@ -139,7 +139,7 @@ const landmarks = [
     coords: [26.2292, 78.1724],
     timings: "06:00 AM - 05:30 PM",
     fee: "Included in Gwalior Fort ticket",
-    image: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Sahasra_bahu_temple_Gwalior_fort.jpg",
+    image: "assets/real_saas_bahu_temple_sahasrabahu.jpg",
     description: "An architectural marvel constructed in 1092 AD, this temple is dedicated to Lord Vishnu (Sahasrabahu, meaning the one with a thousand arms). Popularly known as Saas Bahu Temple, it exhibits intricately carved pillars, ceilings, and figures of deities without using mortar.",
     highlights: [
       "Beautiful twin temple structure (larger and smaller temples)",
@@ -165,7 +165,7 @@ const landmarks = [
     coords: [26.2248, 78.1698],
     timings: "06:00 AM - 05:30 PM",
     fee: "Included in Gwalior Fort ticket",
-    image: "https://upload.wikimedia.org/wikipedia/commons/6/69/Teli_Ka_Mandir%2C_Gwalior_Fort.JPG",
+    image: "assets/real_teli_ka_mandir.jpg",
     description: "The tallest structure inside the Gwalior Fort complex, rising to a height of 100 feet. This temple is famous for its architectural style, which blends a Dravidian (Southern) barrel-vaulted roof (Valabhi style) with Northern Indian (Nagara) decorative details on its outer walls.",
     highlights: [
       "100-foot-tall monumental structure",
@@ -191,7 +191,7 @@ const landmarks = [
     coords: [26.2255, 78.1738],
     timings: "04:00 AM - 10:00 PM",
     fee: "Free Entry",
-    image: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Gurudwara_Data_Bandi_Chodd.jpg",
+    image: "assets/real_gurudwara_data_bandi_chhor_sahib.jpg",
     description: "A famous, historic Sikh shrine located on the Gwalior Fort hill. It is built to commemorate the release of the sixth Sikh Guru, Guru Hargobind Sahib Ji, who was imprisoned in the Gwalior Fort by Mughal Emperor Jahangir and managed to secure the freedom of 52 Hindu kings.",
     highlights: [
       "Gleaming white marble architecture with large gold domes",
@@ -217,7 +217,7 @@ const landmarks = [
     coords: [26.2345, 78.1729],
     timings: "10:00 AM - 05:00 PM (Closed Mondays)",
     fee: "₹20 (Indians) | ₹250 (Foreigners)",
-    image: "https://upload.wikimedia.org/wikipedia/commons/3/31/Sculptured_wall_of_gurjari_Mahal%2C_Gwalior.jpg",
+    image: "assets/real_gujari_mahal_museum.jpg",
     description: "A majestic sandstone palace built at the foot of Gwalior Fort by Raja Man Singh Tomar for his favorite queen Mrignayani (a Gujjar peasant woman). Today, it houses Gwalior's Archaeological Museum, showcasing rare sculptures dating from the 1st century BC.",
     highlights: [
       "Sandstone fortress-palace with historic inner courtyard and gates",
@@ -243,7 +243,7 @@ const landmarks = [
     coords: [26.2208, 78.1774],
     timings: "06:00 AM - 08:00 PM",
     fee: "Free Entry",
-    image: "https://images.unsplash.com/photo-1627856013091-fed6e4e30025?auto=format&fit=crop&w=800&q=80",
+    image: "assets/real_rani_laxmi_bai_samadhi.jpg",
     description: "A peaceful garden memorial located in the Phool Bagh area, dedicated to Rani Laxmi Bai of Jhansi. She was one of the leading figures of the Indian Rebellion of 1857 and died fighting British forces in Gwalior at the age of 29.",
     highlights: [
       "Statue of Rani Laxmi Bai riding a horse with her sword raised",
@@ -269,7 +269,7 @@ const landmarks = [
     coords: [26.2081, 78.1593],
     timings: "09:00 AM - 10:00 PM (Best in evening)",
     fee: "Free Entry",
-    image: "https://upload.wikimedia.org/wikipedia/commons/6/6d/Maharaj_Bada_Gwalior.jpg",
+    image: "assets/real_maharaj_bada_jiwaji_chowk.jpg",
     description: "The vibrant main city square of Gwalior, Maharaj Bada is famous for housing seven historical buildings representing seven different architectural styles—including Roman, Gothic, Greek, Maratha, and Indo-Islamic. It is the commercial heart of the city.",
     highlights: [
       "Seven historical buildings of different architectures around a single square",
@@ -295,7 +295,7 @@ const landmarks = [
     coords: [26.2167, 77.9942],
     timings: "09:00 AM - 05:00 PM",
     fee: "Free entry to dam | Boating starting from ₹50",
-    image: "https://upload.wikimedia.org/wikipedia/commons/2/29/Tighra_Dam_Gwalior.JPG",
+    image: "assets/real_tigra_dam_lake.jpg",
     description: "A freshwater reservoir and dam situated on the Sank River, about 23 km from Gwalior city. Tigra Dam is Gwalior's favorite outdoor and recreational getaway, offering beautiful lakeside scenery, bird watching, and exciting boating activities.",
     highlights: [
       "Massive freshwater lake surrounded by low-lying rocky hills",
@@ -321,7 +321,7 @@ const landmarks = [
     coords: [26.2205, 78.1805],
     timings: "06:00 AM - 07:00 PM",
     fee: "Free Entry",
-    image: "https://upload.wikimedia.org/wikipedia/commons/c/c0/Italian_Garden.jpg",
+    image: "assets/real_italian_garden.jpg",
     description: "Located inside the historic Phool Bagh premises, the Italian Garden is a beautifully manicured landscape showing classic European aesthetic designs. It is filled with stone fountains, stone pathways, and lush trees, offering a peaceful sanctuary.",
     highlights: [
       "Beautiful vintage Italian-style water fountains",
@@ -347,7 +347,7 @@ const landmarks = [
     coords: [26.4358, 78.2561],
     timings: "08:00 AM - 05:00 PM",
     fee: "Free Entry",
-    image: "https://upload.wikimedia.org/wikipedia/commons/e/ec/Chausath_Yogini_Mitawali_Shiva_Temple_Madhya_Pradesh_004.jpg",
+    image: "assets/real_chausath_yogini_temple_mitawali.jpg",
     description: "An ancient circular temple perched on a 100-foot-tall hill in Mitawali, about 40 km from Gwalior. Constructed in 1055 AD, it features 64 outer chambers dedicated to the 64 Yoginis (manifestations of the mother goddess) and a central shrine dedicated to Lord Shiva.",
     highlights: [
       "Spectacular circular architecture built in a unique style",
@@ -373,7 +373,7 @@ const landmarks = [
     coords: [26.4250, 78.2325],
     timings: "08:00 AM - 05:00 PM",
     fee: "Free Entry",
-    image: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Bateshwar_Temples_%2815695822503%29.jpg",
+    image: "assets/real_bateshwar_group_of_temples.jpg",
     description: "A breathtaking cluster of nearly 200 ancient sandstone mini-temples built in a valley in Morena, near Gwalior. Dedicated to Shiva and Vishnu, they were constructed during the Gurjara-Pratihara dynasty and have been meticulously restored from rubble.",
     highlights: [
       "A vast, fairytale-like forest of nearly 200 ancient stone temples",
@@ -399,7 +399,7 @@ const landmarks = [
     coords: [26.2072, 78.1585],
     timings: "11:00 AM - 09:30 PM (Closed Sundays)",
     fee: "Free Entry",
-    image: "https://upload.wikimedia.org/wikipedia/commons/1/19/Shelves_from_a_Saree_shop_%286543977625%29.jpg",
+    image: "assets/real_patankar_bazar.jpg",
     description: "One of the oldest and most vibrant marketplaces in Gwalior. Stretching near the Maharaj Bada square, Patankar Bazar is famous for traditional handlooms, especially authentic Chanderi and Maheshwari silk sarees, and Gwalior's famous leather items.",
     highlights: [
       "Vibrant market streets lined with traditional fabric shops",
@@ -425,7 +425,7 @@ const landmarks = [
     coords: [26.2052, 78.1548],
     timings: "08:00 AM - 08:30 PM",
     fee: "Laddoo starting from ₹30 per piece",
-    image: "https://upload.wikimedia.org/wikipedia/commons/0/06/Boondi_laddoo.JPG",
+    image: "assets/real_bahadoora_ke_laddoo.jpg",
     description: "A legendary sweet shop located in Gwalior's Naya Bazar area, famous all over India for its mouthwatering Boondi Laddoos. Prepared in pure Desi Ghee (clarified butter), these laddoos are prepared fresh daily using traditional wood-fire stoves.",
     highlights: [
       "The most famous Boondi Laddoos in Madhya Pradesh, made in pure Desi Ghee",
@@ -451,7 +451,7 @@ const landmarks = [
     coords: [26.2952, 77.6749],
     timings: "06:00 AM - 06:00 PM",
     fee: "Free Entry",
-    image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80",
+    image: "assets/real_pagara_dam_morena.jpg",
     description: "Located 65 km from Gwalior in Morena district, Pagara Dam is a massive masonry structure built across the Asan River. Famous for its sprawling grasslands, peaceful campsites, and boating, it is a highly popular day-trip and cycling destination.",
     highlights: [
       "Massive water reservoir with scenic rocky hills around",
@@ -477,7 +477,7 @@ const landmarks = [
     coords: [26.1250, 78.1120],
     timings: "08:00 AM - 05:30 PM",
     fee: "Free Entry",
-    image: "https://upload.wikimedia.org/wikipedia/commons/b/be/Small_rocky_stream_of_water_1.jpg",
+    image: "assets/real_bhadawana_waterfall_shiva_shrine.jpg",
     description: "A popular monsoon waterfall and picnic spot located 25 km from Gwalior. The seasonal waterfall cascades down rocky steps into a pool, next to a small, peaceful temple dedicated to Lord Shiva.",
     highlights: [
       "Water cascading down sandstone steps during monsoon",
@@ -503,7 +503,7 @@ const landmarks = [
     coords: [26.2144, 78.1758],
     timings: "10:00 AM - 10:00 PM",
     fee: "Free entry | Boating starts at ₹50",
-    image: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Moti_Mahal_Garden_and_Baija_Taal_view_from_Moti_mahal%2C_Gwalior_-_panoramio.jpg",
+    image: "assets/real_baija_tal.jpg",
     description: "A historic water reservoir constructed by Baija Bai Scindia. Today, it has been beautifully converted into a cultural park containing a large lake for boating, a dynamic art gallery, and an open-air theater situated right in the center of the water.",
     highlights: [
       "Beautiful stone water tank with a central circular pavilion structure",
@@ -529,7 +529,7 @@ const landmarks = [
     coords: [26.1154, 78.0754],
     timings: "06:00 AM - 06:00 PM",
     fee: "Free Entry",
-    image: "https://upload.wikimedia.org/wikipedia/commons/7/74/009242022_Kaviyur_Rock_Cut_Temple_near_Thiruvalla_Kerala_026.jpg",
+    image: "assets/real_nalkeshwar_temple_cave_falls.jpg",
     description: "Hidden in a rocky valley 22 km from Gwalior, Nalkeshwar is a peaceful cave temple and seasonal waterfall. It is famous for a natural spring that continuously drips water onto a Shiva Lingam inside a rock cave.",
     highlights: [
       "Natural spring dripping water directly onto the Shiva Lingam",
@@ -555,7 +555,7 @@ const landmarks = [
     coords: [26.2138, 78.1764],
     timings: "10:00 AM - 05:00 PM (Closed Sundays/Holidays)",
     fee: "Free Entry",
-    image: "https://upload.wikimedia.org/wikipedia/commons/9/95/Moti_Mahal.JPG",
+    image: "assets/real_moti_mahal.jpg",
     description: "A grand 19th-century royal palace that served as the primary administrative seat of the Scindia rulers before the construction of Jai Vilas Palace. It is famous for its massive chambers, royal courtrooms, and walls covered with spectacular murals depicting ragas and court scenes.",
     highlights: [
       "Historic Maratha palace architecture with beautiful courtyards",
@@ -581,7 +581,7 @@ const landmarks = [
     coords: [26.2025, 78.1564],
     timings: "08:00 AM - 07:00 PM",
     fee: "₹20 (Indians) | ₹100 (Foreigners)",
-    image: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Bhim_Singh_Rana_Chhatri_Gwalior_Fort.jpg",
+    image: "assets/real_scindia_cenotaphs_chhatris.jpg",
     description: "Located in the heart of Gwalior at Chhatri Bazar, these are elegant, dome-shaped stone pavilions built as memorials (cenotaphs) for the deceased rulers of the Scindia dynasty. The complex features beautifully carved columns, fountains, and manicured gardens.",
     highlights: [
       "Stunning Maratha-Rajput style stone pavilions (Chhatris)",
@@ -607,7 +607,7 @@ const landmarks = [
     coords: [26.2202, 78.1795],
     timings: "09:00 AM - 05:30 PM (Closed Fridays)",
     fee: "₹20 (Adults) | ₹10 (Children)",
-    image: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Sambhar_at_Gwalior_zoo.JPG",
+    image: "assets/real_gwalior_zoo_gandhi_zoological_park.jpg",
     description: "A popular family attraction located inside the Phool Bagh garden complex. Established in 1922 by the royal family, the zoo is home to rare species like the white tiger, Royal Bengal tigers, leopards, and crocodiles.",
     highlights: [
       "Home to rare white tigers and majestic lions",
@@ -633,7 +633,7 @@ const landmarks = [
     coords: [26.2281, 78.1754],
     timings: "05:00 AM - 10:00 PM",
     fee: "Free Entry",
-    image: "https://images.unsplash.com/photo-1545128485-c400e7702796?auto=format&fit=crop&w=800&q=80",
+    image: "assets/real_koteshwar_mahadev_temple.jpg",
     description: "A historic Shiva temple located near the Gwalior Fort. It houses a massive Shiva Lingam that is worshipped by thousands of local devotees daily. The temple is especially famous for its festive atmosphere during Mahashivratri.",
     highlights: [
       "Huge, ancient Shiva Lingam situated in the inner sanctum",
@@ -769,11 +769,11 @@ function initNavbarScroll() {
   });
 }
 
-// Image optimization helper using weserv.nl free proxy
+// Image optimization helper
 function getOptimizedImageUrl(url) {
   if (!url) return "";
-  if (url.includes("images.unsplash.com")) {
-    return url; // Unsplash URLs are already optimized via query parameters in the DB
+  if (url.startsWith("assets/") || url.includes("images.unsplash.com")) {
+    return url; // Local assets or Unsplash URLs are returned directly
   }
   return `https://images.weserv.nl/?url=${encodeURIComponent(url)}&w=800&output=webp&q=82`;
 }
