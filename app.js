@@ -441,6 +441,110 @@ const landmarks = [
       "Try their hot samosas and gulab jamun alongside the laddoos."
     ],
     trivia: "Despite opening multiple branches and modernizing, the family still uses traditional charcoal and wood-fire stoves in their main kitchen, believing the smoke gives the laddoos a distinct traditional aroma."
+  },
+  {
+    id: 17,
+    name: "Pagara Dam (Morena)",
+    category: "cultural",
+    built: "1927 AD",
+    rating: 4.5,
+    coords: [26.2952, 77.6749],
+    timings: "06:00 AM - 06:00 PM",
+    fee: "Free Entry",
+    image: "assets/tigra_dam.png",
+    description: "Located 65 km from Gwalior in Morena district, Pagara Dam is a massive masonry structure built across the Asan River. Famous for its sprawling grasslands, peaceful campsites, and boating, it is a highly popular day-trip and cycling destination.",
+    highlights: [
+      "Massive water reservoir with scenic rocky hills around",
+      "Sprawling green fields near the water ideal for camping",
+      "Popular destination for motorcycle road-trips and bicycle clubs",
+      "Boating facilities operated by local tourism operators"
+    ],
+    history_long: "Pagara Dam was constructed in 1927 under the late Scindia administration to act as a major irrigation reservoir for the arid lands of Morena. Over the years, the dam has gathered rich silt, forming fertile grasslands that emerge when water levels drop. It has become a highly favored offbeat ecotourism site in the Gwalior region.",
+    tips: [
+      "It is a remote location; ensure your vehicle has enough fuel and carry your own tools/spare tires.",
+      "Pack a complete picnic basket and outdoor chairs as there are no shops or restaurants near the dam.",
+      "Avoid swimming in the reservoir as the depth increases suddenly and underwater silt can be dangerous.",
+      "Visit in the early morning to catch spectacular mist rising over the water."
+    ],
+    trivia: "During the winter, the dry areas of the dam's reservoir turn into massive green pastures where thousands of local cattle graze, creating a scenery that resembles the rolling steppes of Central Asia."
+  },
+  {
+    id: 18,
+    name: "Bhadawana Waterfall & Shiva Shrine",
+    category: "cultural",
+    built: "Natural (Ancient shrine)",
+    rating: 4.4,
+    coords: [26.1250, 78.1120],
+    timings: "08:00 AM - 05:30 PM",
+    fee: "Free Entry",
+    image: "assets/tigra_dam.png",
+    description: "A popular monsoon waterfall and picnic spot located 25 km from Gwalior. The seasonal waterfall cascades down rocky steps into a pool, next to a small, peaceful temple dedicated to Lord Shiva.",
+    highlights: [
+      "Water cascading down sandstone steps during monsoon",
+      "Ancient Shiva temple built in a rocky cave setting",
+      "Popular local picnic spot surrounded by green trees",
+      "Lush trekking paths around the rocky gorges"
+    ],
+    history_long: "Bhadawana is a natural waterfall formed by seasonal streams cutting through the Gwalior sandstone hills. The cave shrine dedicated to Lord Shiva has been a place of pilgrimage for local villagers for centuries. During the holy month of Sawan (monsoon), thousands of Gwalior residents hike to the temple to offer water to the deity and enjoy the flowing falls.",
+    tips: [
+      "The waterfall goes completely dry in the hot summer months; visit from July to October for the best experience.",
+      "The steps leading down to the falls can be slippery, so wear shoes with good grip.",
+      "Keep an eye on children near the water pools as the depth can vary.",
+      "Watch out for monkeys; keep food bags closed and out of sight."
+    ],
+    trivia: "According to local folklore, the natural cave temple was once a retreat for sages who meditated behind the screen of the cascading waterfall to achieve spiritual peace."
+  },
+  {
+    id: 19,
+    name: "Sultangarh Waterfall (Shivpuri)",
+    category: "cultural",
+    built: "Natural Attraction",
+    rating: 4.6,
+    coords: [25.9653, 77.9254],
+    timings: "08:00 AM - 05:00 PM",
+    fee: "Free Entry",
+    image: "assets/tigra_dam.png",
+    description: "A spectacular natural waterfall located 60 km from Gwalior on the Shivpuri road. The Parvati River cascades over massive rocky sandstone cliffs, forming a deep swimming pool at the bottom surrounded by a dense forest.",
+    highlights: [
+      "Dramatic natural waterfall on the Parvati River",
+      "Massive sandstone boulders perfect for sitting and relaxing",
+      "Deep natural rock pool popular for swimming and diving",
+      "Surrounded by a dense, peaceful forest sanctuary"
+    ],
+    history_long: "Sultangarh Waterfall is a natural geological formation where the Parvati River cuts through the hard rock layers of the Vindhyan range. It is celebrated in regional tourism as one of the most scenic and wild waterfalls near Gwalior. In recent years, safety railings and viewing platforms have been added to let visitors enjoy the waterfall safely.",
+    tips: [
+      "The water current can become extremely strong and dangerous during heavy rains; strictly avoid swimming during peak monsoon.",
+      "Carry a change of clothes if you plan on swimming in the natural pool.",
+      "There are small local stalls selling hot tea and instant noodles, but carry your own heavy meals.",
+      "The road from Gwalior is a pleasant drive; start early in the morning to make it a full day trip."
+    ],
+    trivia: "The name 'Sultangarh' comes from an ancient ruined fort located in the nearby forests, which was used as a hunting lodge by local rulers centuries ago."
+  },
+  {
+    id: 20,
+    name: "Nalkeshwar Temple & Cave Falls",
+    category: "temples",
+    built: "Natural (Ancient Temple)",
+    rating: 4.5,
+    coords: [26.1154, 78.0754],
+    timings: "06:00 AM - 06:00 PM",
+    fee: "Free Entry",
+    image: "assets/gopachal_parvat.png",
+    description: "Hidden in a rocky valley 22 km from Gwalior, Nalkeshwar is a peaceful cave temple and seasonal waterfall. It is famous for a natural spring that continuously drips water onto a Shiva Lingam inside a rock cave.",
+    highlights: [
+      "Natural spring dripping water directly onto the Shiva Lingam",
+      "Quiet rock cave setting inside a secluded valley",
+      "Seasonal waterfall that flows down the cliffs during rains",
+      "Very peaceful, spiritual atmosphere far from city noise"
+    ],
+    history_long: "Nalkeshwar is named after the ancient Sage Garga who is said to have meditated in these caves. The temple is built around a perennial natural spring that flows from the sandstone layers of the hill. It has been a sacred site for meditation and worship for centuries, offering a perfect blend of natural beauty and spiritual quietness.",
+    tips: [
+      "The approach path involves a small walk on rocky ground, so wear comfortable sports shoes.",
+      "Visit during the morning hours when the valley is filled with birdsong and pleasant air.",
+      "Respect the sanctity of the temple; speak softly and avoid littering.",
+      "Combine this with a trip to the nearby Bhadawana waterfall for a complete day out."
+    ],
+    trivia: "The water dripping onto the Shiva Lingam in the cave flows continuously throughout the year, even during the peak dry summers when the main waterfall outside has dried up."
   }
 ];
 
