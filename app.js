@@ -769,6 +769,15 @@ function initNavbarScroll() {
   });
 }
 
+// Image optimization helper using weserv.nl free proxy
+function getOptimizedImageUrl(url) {
+  if (!url) return "";
+  if (url.includes("images.unsplash.com")) {
+    return url; // Unsplash URLs are already optimized via query parameters in the DB
+  }
+  return `https://images.weserv.nl/?url=${encodeURIComponent(url)}&w=800&output=webp&q=82`;
+}
+
 // Render place cards into the sidebar
 function renderSidebarCards(items) {
   const container = document.getElementById("places-list");
@@ -784,7 +793,7 @@ function renderSidebarCards(items) {
     card.className = `place-card card ${place.id === activeLandmarkId ? "active" : ""}`;
     card.setAttribute("id", `place-card-${place.id}`);
     card.innerHTML = `
-      <img src="${place.image}" alt="${place.name}" class="place-card-img">
+      <img src="${getOptimizedImageUrl(place.image)}" alt="${place.name}" class="place-card-img">
       <div class="place-card-content">
         <span class="place-card-tag">${place.category}</span>
         <h3>${place.name}</h3>
@@ -875,7 +884,7 @@ function setActiveLandmark(id) {
   }
 
   // 2. Active Details Panel Text & Media updates
-  document.getElementById("active-image").src = place.image;
+  document.getElementById("active-image").src = getOptimizedImageUrl(place.image);
   document.getElementById("active-tag").innerText = place.category;
   document.getElementById("active-title").innerText = place.name;
   document.getElementById("active-built").innerText = place.built;
@@ -931,7 +940,7 @@ function openDetailModal() {
   const modal = document.getElementById("detail-modal");
   
   // Set content
-  document.getElementById("modal-image").src = place.image;
+  document.getElementById("modal-image").src = getOptimizedImageUrl(place.image);
   document.getElementById("modal-tag").innerText = place.category;
   document.getElementById("modal-title").innerText = place.name;
   document.getElementById("modal-built").innerText = place.built;
