@@ -311,6 +311,136 @@ const landmarks = [
       "Carry your own picnic snacks and mats as dining facilities near the dam are basic."
     ],
     trivia: "Tigra Dam's initial breach in 1917 released billions of gallons of water, flooding the lower parts of Gwalior. The reconstruction used an innovative curved gravity masonry wall that remains fully operational to this day."
+  },
+  {
+    id: 12,
+    name: "Italian Garden",
+    category: "cultural",
+    built: "Early 20th Century",
+    rating: 4.3,
+    coords: [26.2205, 78.1805],
+    timings: "06:00 AM - 07:00 PM",
+    fee: "Free Entry",
+    image: "assets/italian_garden.png",
+    description: "Located inside the historic Phool Bagh premises, the Italian Garden is a beautifully manicured landscape showing classic European aesthetic designs. It is filled with stone fountains, stone pathways, and lush trees, offering a peaceful sanctuary.",
+    highlights: [
+      "Beautiful vintage Italian-style water fountains",
+      "Clean, tranquil stone pathways perfect for morning walks",
+      "Lush green grass lawns surrounded by ancient trees",
+      "Located near the Gwalior Zoo and Phool Bagh Palace"
+    ],
+    history_long: "The Italian Garden was constructed in the early 20th century under the Scindia rulers, who were passionate about European neoclassical architecture and landscaping. It was designed to mimic the grand renaissance gardens of Italy, featuring geometrical layouts and stone water channels. Over time, it has evolved into a popular public park where citizens and visitors enjoy a touch of vintage European gardening in Gwalior.",
+    tips: [
+      "Visit during early morning or late evening to enjoy the coolest, most peaceful atmosphere.",
+      "Combine your visit with the Gwalior Zoo and the Rani Laxmi Bai memorial nearby.",
+      "It is an excellent spot for quiet reading, yoga, or photography.",
+      "Do not litter; keep this historic garden clean."
+    ],
+    trivia: "The garden features a network of stone channels that were historically connected to an underground gravity-fed water channel system to feed the fountains without modern mechanical pumps."
+  },
+  {
+    id: 13,
+    name: "Chausath Yogini Temple (Mitawali)",
+    category: "temples",
+    built: "11th Century AD",
+    rating: 4.8,
+    coords: [26.4358, 78.2561],
+    timings: "08:00 AM - 05:00 PM",
+    fee: "Free Entry",
+    image: "assets/mitawali_temple.png",
+    description: "An ancient circular temple perched on a 100-foot-tall hill in Mitawali, about 40 km from Gwalior. Constructed in 1055 AD, it features 64 outer chambers dedicated to the 64 Yoginis (manifestations of the mother goddess) and a central shrine dedicated to Lord Shiva.",
+    highlights: [
+      "Spectacular circular architecture built in a unique style",
+      "64 small shrines containing Shivlingams built around the inner wall",
+      "Widely believed to have inspired the architectural design of India's old Parliament House",
+      "Panoramic views of the surrounding green valleys from the hilltop"
+    ],
+    history_long: "Built by King Devapala of the Kachchhapaghata dynasty in 1055 AD, this temple was an ancient center for astrology, mathematics, and tantric worship. The circular layout was designed to calculate solar and astronomical cycles. While many structures of this era were destroyed, its hilltop position and solid construction helped it survive the test of time.",
+    tips: [
+      "Since it is located 40 km outside Gwalior, hire a private taxi to combine it with the Bateshwar Temples nearby.",
+      "Wear a hat and sunscreen; there is no shade in the open circular courtyard.",
+      "Climb the steps slowly as they are relatively steep.",
+      "Hire a local guide at the site to learn about the astronomical functions of the pillars."
+    ],
+    trivia: "While there is no written government record, the striking circular structure, columns, and central hall design of the Mitawali temple are so identical to the old Indian Parliament House (Sansad Bhavan) built by Edwin Lutyens that it is widely accepted as its inspiration."
+  },
+  {
+    id: 14,
+    name: "Bateshwar Group of Temples",
+    category: "temples",
+    built: "8th - 10th Century AD",
+    rating: 4.8,
+    coords: [26.4250, 78.2325],
+    timings: "08:00 AM - 05:00 PM",
+    fee: "Free Entry",
+    image: "assets/bateshwar_temples.png",
+    description: "A breathtaking cluster of nearly 200 ancient sandstone mini-temples built in a valley in Morena, near Gwalior. Dedicated to Shiva and Vishnu, they were constructed during the Gurjara-Pratihara dynasty and have been meticulously restored from rubble.",
+    highlights: [
+      "A vast, fairytale-like forest of nearly 200 ancient stone temples",
+      "Meticulous restoration work showing detailed carvings of deities and guardians",
+      "Quiet, mystical atmosphere with birds chirping and historical ruins",
+      "Surrounding ruins of the ancient Padavali fortress temple"
+    ],
+    history_long: "Built between the 8th and 10th centuries AD, the Bateshwar temples were destroyed during Islamic invasions and earthquakes. For centuries, the ruins lay buried in a dense forest, which became a hideout for local dacoits (bandits). In 2005, the Archaeological Survey of India (ASI), led by archaeologist K.K. Muhammed, successfully negotiated with the dacoits to allow the restoration of the temples. Over several years, they reassembled the giant jigsaw puzzle of stone blocks to recreate this historic site.",
+    tips: [
+      "Combine this excursion with Mitawali circular temple as they are only 10 minutes apart.",
+      "Hire a guide to show you the remarkable detail carvings on the door frames.",
+      "Carry food and water; there are no shops or restaurants in the immediate vicinity of this remote heritage site.",
+      "Be respectful of the restoration work and avoid climbing on the fragile structures."
+    ],
+    trivia: "The dacoit leader Nirbhay Singh Gujjar protected the site from looters for years. He agreed to surrender and allow restoration only after being convinced by the ASI team that the temples belonged to their Gurjara-Pratihara ancestors."
+  },
+  {
+    id: 15,
+    name: "Patankar Bazar",
+    category: "cultural",
+    built: "19th Century",
+    rating: 4.4,
+    coords: [26.2072, 78.1585],
+    timings: "11:00 AM - 09:30 PM (Closed Sundays)",
+    fee: "Free Entry",
+    image: "assets/patankar_bazar.png",
+    description: "One of the oldest and most vibrant marketplaces in Gwalior. Stretching near the Maharaj Bada square, Patankar Bazar is famous for traditional handlooms, especially authentic Chanderi and Maheshwari silk sarees, and Gwalior's famous leather items.",
+    highlights: [
+      "Vibrant market streets lined with traditional fabric shops",
+      "Famous for handloom Chanderi sarees, known for their lightweight and gold borders",
+      "Shops selling traditional leather shoes, bags, and local metal crafts",
+      "Lively local culture, street vendors, and traditional shopping experience"
+    ],
+    history_long: "Patankar Bazar grew during the late Scindia era as the primary trading market for textile weavers and local leather craftsmen. Gwalior became famous as a commercial hub for Chanderi silks, which were historically commissioned by the queens and princesses of the Scindia court. Today, it remains the primary shopping destination for visitors looking for authentic local textiles.",
+    tips: [
+      "Bargaining is common among small street vendors, but government emporiums have fixed prices.",
+      "Look for the 'Handloom Mark' tag when buying Chanderi sarees to ensure they are authentic hand-woven silks.",
+      "Visit in the late afternoon to combine shopping with an evening food walk around Maharaj Bada.",
+      "Most shops are closed on Sundays, so plan your shopping days accordingly."
+    ],
+    trivia: "Chanderi silk is a centuries-old weave that mixes silk thread with cotton, creating a fabric so light and transparent that it was historically called 'woven air' in royal courts."
+  },
+  {
+    id: 16,
+    name: "Bahadoora Ke Laddoo",
+    category: "cultural",
+    built: "1950 AD",
+    rating: 4.7,
+    coords: [26.2052, 78.1548],
+    timings: "08:00 AM - 08:30 PM",
+    fee: "Laddoo starting from ₹30 per piece",
+    image: "assets/bahadoora_laddoo.png",
+    description: "A legendary sweet shop located in Gwalior's Naya Bazar area, famous all over India for its mouthwatering Boondi Laddoos. Prepared in pure Desi Ghee (clarified butter), these laddoos are prepared fresh daily using traditional wood-fire stoves.",
+    highlights: [
+      "The most famous Boondi Laddoos in Madhya Pradesh, made in pure Desi Ghee",
+      "Traditional open kitchen style where visitors can see the fresh laddoos being prepared",
+      "Authentic Gwalior heritage sweet shop that has maintained its taste for decades",
+      "Also famous for other traditional sweets like Gulab Jamun and Kaju Katli"
+    ],
+    history_long: "Founded in 1950 by late Shri Bahadur Singh, this small sweet shop started as a humble local vendor. Through a dedication to quality and using only pure ingredients, his boondi laddoos became a sensation. Today, it is run by the third generation of his family and has become a landmark culinary attraction in Gwalior, frequented by politicians, celebrities, and thousands of daily food lovers.",
+    tips: [
+      "Ask for hot, freshly made laddoos directly from the preparation counter.",
+      "The shop gets extremely crowded in the evening; visit during the afternoon to avoid long queues.",
+      "They pack the laddoos in sturdy boxes, making it easy to carry them home as souvenirs for friends.",
+      "Try their hot samosas and gulab jamun alongside the laddoos."
+    ],
+    trivia: "Despite opening multiple branches and modernizing, the family still uses traditional charcoal and wood-fire stoves in their main kitchen, believing the smoke gives the laddoos a distinct traditional aroma."
   }
 ];
 
