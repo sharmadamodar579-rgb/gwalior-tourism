@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://explore-gwalior-city.netlify.app/sitemap.xml
+Sitemap: https://gwalior-sightseeing.netlify.app/sitemap.xml
