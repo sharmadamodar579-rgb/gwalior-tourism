@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gwalior Tourism | Explore the Royal Heritage & Fort City</title>
+  <meta name="description" content="Discover the magnificent city of Gwalior. Explore the historic Gwalior Fort, opulent Jai Vilas Palace, ancient rock-cut Jain temples, and rich musical heritage with our interactive map and travel guide.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Leaflet Map CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="main-nav">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <span class="logo-gold">G</span>WALIOR
+      </a>
+      <ul class="nav-links">
+        <li><a href="#hero" class="active">Home</a></li>
+        <li><a href="#explorer">Explore Landmarks</a></li>
+        <li><a href="#itinerary">Trip Planner</a></li>
+        <li><a href="#history-section">Heritage</a></li>
+      </ul>
+      <button class="cta-nav" onclick="document.getElementById('explorer').scrollIntoView({behavior: 'smooth'})">Start Journey</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section" id="hero">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-content">
+      <h3 class="hero-subtitle">The Cradle of Royal Dynasties & Eternal Music</h3>
+      <h1 class="hero-title">EXPLORE THE GIBRALTAR OF INDIA</h1>
+      <p class="hero-description">Journey through centuries of history, architectural marvels, and royal heritage in the heart of Madhya Pradesh, Gwalior.</p>
+      <div class="hero-btns">
+        <a href="#explorer" class="btn btn-primary">Explore Places</a>
+        <a href="#itinerary" class="btn btn-secondary">Plan Itinerary</a>
+      </div>
+    </div>
+    <div class="scroll-indicator" onclick="document.getElementById('explorer').scrollIntoView({behavior: 'smooth'})">
+      <span>Scroll Down</span>
+      <div class="mouse-icon">
+        <div class="wheel"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Explorer Section -->
+  <section class="explorer-section" id="explorer">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="badge">Interactive Guide</span>
+        <h2>Discover Gwalior's Treasures</h2>
+        <p>Select a location from the sidebar or interactive map to read its historical importance, visitor timings, entry fees, and travel tips.</p>
+      </div>
+
+      <!-- Quick Category Filters -->
+      <div class="filter-container">
+        <button class="filter-btn active" data-category="all">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          All Places
+        </button>
+        <button class="filter-btn" data-category="historical">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/></svg>
+          Historical Palaces
+        </button>
+        <button class="filter-btn" data-category="temples">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 22h20L12 2z"/><path d="M12 18v-4"/></svg>
+          Temples & Caves
+        </button>
+        <button class="filter-btn" data-category="cultural">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+          Cultural Sites
+        </button>
+      </div>
+
+      <!-- Explorer Grid Layout -->
+      <div class="explorer-grid">
+        
+        <!-- Left Sidebar: Landmarks List -->
+        <div class="explorer-sidebar" id="places-list">
+          <!-- Places Cards injected dynamically via Javascript -->
+        </div>
+        
+        <!-- Center-Right Content Panel: Map & Active Place details -->
+        <div class="explorer-content">
+          <!-- Dynamic Place Detail Card -->
+          <div class="active-detail-card card" id="active-detail-panel">
+            <div class="active-detail-img-container">
+              <img id="active-image" src="assets/gwalior_fort.png" alt="Gwalior Landmark">
+              <div class="active-detail-tag-overlay">
+                <span class="place-tag" id="active-tag">Historical</span>
+              </div>
+            </div>
+            
+            <div class="active-detail-body">
+              <div class="active-detail-header">
+                <div>
+                  <h3 id="active-title">Gwalior Fort</h3>
+                  <span class="active-year-badge"><strong class="gold-text">Built:</strong> <span id="active-built">8th Century AD</span></span>
+                </div>
+                <div class="active-rating">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="gold-star"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                  <span id="active-rating-score">4.8</span>
+                </div>
+              </div>
+              
+              <p class="active-description" id="active-desc">Select a landmark from the side list to see full details and locate it on the map.</p>
+              
+              <!-- Specs Grid (Timings, Fee, Location) -->
+              <div class="active-specs-grid">
+                <div class="spec-item">
+                  <div class="spec-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  </div>
+                  <div class="spec-text">
+                    <span class="spec-label">Timings</span>
+                    <span class="spec-val" id="active-timings">06:00 AM - 05:30 PM</span>
+                  </div>
+                </div>
+                <div class="spec-item">
+                  <div class="spec-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                  </div>
+                  <div class="spec-text">
+                    <span class="spec-label">Entry Fee</span>
+                    <span class="spec-val" id="active-fee">₹75 (Indians) | ₹250 (Foreigners)</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Quick Highlights list -->
+              <div class="active-highlights-section">
+                <h4>Key Highlights</h4>
+                <ul class="highlights-list" id="active-highlights">
+                  <li>Man Singh Palace architectural beauty</li>
+                  <li>Ancient rock-cut temples inside</li>
+                  <li>Sound and Light show in the evening</li>
+                </ul>
+              </div>
+
+              <div class="active-actions">
+                <button class="btn btn-primary" id="open-modal-btn">Explore Visual Details</button>
+                <button class="btn btn-outline" id="pan-map-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C10 14.3 8 10 8 10c0-2.2 1.8-4 4-4s4 1.8 4 4c0 0-2 4.3-4 11.7z"/></svg>
+                  Locate On Map
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Map Section -->
+          <div class="map-card-wrapper card">
+            <div class="map-card-header">
+              <div class="map-status-dot"></div>
+              <h4>Interactive Map Grid</h4>
+              <span class="map-coordinates" id="active-coords">GPS: 26.2294° N, 78.1691° E</span>
+            </div>
+            <div id="gwalior-map" class="map-container"></div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Itinerary Planner Section -->
+  <section class="itinerary-section" id="itinerary">
+    <div class="itinerary-container">
+      <div class="section-header text-center">
+        <span class="badge">Travel Assistant</span>
+        <h2>Design Your Gwalior Experience</h2>
+        <p>Pick your preferences below, and our system will generate a curated timeline guide for your visit to the historical fort city.</p>
+      </div>
+
+      <div class="planner-box card">
+        <div class="planner-inputs">
+          <div class="input-group">
+            <label for="trip-duration">Duration of Stay</label>
+            <select id="trip-duration">
+              <option value="1">1 Day Express</option>
+              <option value="2" selected>2 Days Classic Tour</option>
+              <option value="3">3 Days Extensive Heritage</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label for="travel-style">Travel Persona</label>
+            <select id="travel-style">
+              <option value="heritage">Heritage & History Buff</option>
+              <option value="spiritual">Spiritual & Peaceful</option>
+              <option value="family">Family & Sightseeing</option>
+            </select>
+          </div>
+          <div class="input-group btn-align">
+            <button class="btn btn-primary btn-block" id="generate-itinerary-btn">Generate Plan</button>
+          </div>
+        </div>
+
+        <!-- Render Timeline -->
+        <div class="itinerary-timeline-output" id="timeline-output">
+          <!-- Plan timelines will go here dynamically -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Heritage Section -->
+  <section class="heritage-intro-section" id="history-section">
+    <div class="section-container">
+      <div class="heritage-split-grid">
+        <div class="heritage-text">
+          <span class="badge">History & Legacy</span>
+          <h2>The Royal Tapestry of Gwalior</h2>
+          <p>Gwalior's history is woven with the deeds of great dynasties—from the Tomars and Mughals to the Marathas and Scindias. Each has left an indelible mark on the landscape, food, music, and architecture of this majestic region.</p>
+          <div class="legacy-stats">
+            <div class="stat-box">
+              <h3>1000+</h3>
+              <p>Years of Fort Heritage</p>
+            </div>
+            <div class="stat-box">
+              <h3>Senia</h3>
+              <p>Gharana Music Legacy</p>
+            </div>
+            <div class="stat-box">
+              <h3>100%</h3>
+              <p>Royal Grandeur</p>
+            </div>
+          </div>
+          <blockquote class="culture-quote">
+            "Music is in the air of Gwalior. The soil of Gwalior is sweet with the legends of Tansen and Baiju Bawra."
+          </blockquote>
+        </div>
+        <div class="heritage-showcase">
+          <div class="glowing-card card">
+            <div class="card-glow-element"></div>
+            <h4>Did You Know?</h4>
+            <ul class="facts-list">
+              <li>
+                <strong>The Zero Connection:</strong> Gopachal Parvat and Gwalior Fort walls house some of the oldest stone inscriptions depicting the symbol "0" (zero) in temples.
+              </li>
+              <li>
+                <strong>World's Largest Chandeliers:</strong> The Durbar Hall in Jai Vilas Palace holds two chandeliers weighing 3.5 tons each. Ten elephants were climbed onto the roof to test its load capacity before installation.
+              </li>
+              <li>
+                <strong>The Sweet Voice Tamarind:</strong> Legend has it that chewing the leaves of the tamarind tree near Tansen's tomb cures throat ailments and sweetens a singer's voice.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal for Detailed Landmarks Explore -->
+  <div class="modal-overlay" id="detail-modal">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="close-modal-btn-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      
+      <div class="modal-content-grid">
+        <div class="modal-image-side">
+          <img id="modal-image" src="" alt="Landmark High Res Visual">
+        </div>
+        <div class="modal-info-side">
+          <span class="place-tag" id="modal-tag">Landmark</span>
+          <h2 id="modal-title">Gwalior Fort</h2>
+          
+          <div class="modal-scroll-area">
+            <div class="modal-meta-row">
+              <span class="meta-label">Built:</span>
+              <span class="meta-value" id="modal-built">8th Century</span>
+              <span class="meta-separator">|</span>
+              <span class="meta-label">Coordinates:</span>
+              <span class="meta-value" id="modal-coordinates">26.2294, 78.1691</span>
+            </div>
+            
+            <div class="modal-tabs">
+              <button class="tab-btn active" data-tab="history">Historical Legacy</button>
+              <button class="tab-btn" data-tab="tips">Visitor Guide & Tips</button>
+              <button class="tab-btn" data-tab="trivia">Secret Facts</button>
+            </div>
+            
+            <div class="tab-content active" id="tab-history">
+              <p id="modal-history-content">History text details here...</p>
+            </div>
+            <div class="tab-content" id="tab-tips">
+              <ul class="tips-ul" id="modal-tips-content">
+                <li>Tips data here...</li>
+              </ul>
+            </div>
+            <div class="tab-content" id="tab-trivia">
+              <p id="modal-trivia-content">Trivia text here...</p>
+            </div>
+          </div>
+          
+          <div class="modal-footer-cta">
+            <button class="btn btn-primary" id="modal-close-action-btn">Close Explorer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-brand-side">
+        <a href="#" class="logo footer-logo"><span class="logo-gold">G</span>WALIOR</a>
+        <p class="footer-desc">Crafting modern architectural journeys. Exploring the intersection of digital technology and royal Indian cultural history.</p>
+        <div class="social-icons">
+          <!-- Web aesthetics social circles -->
+          <span class="social-circle">𝕏</span>
+          <span class="social-circle">📸</span>
+          <span class="social-circle">🌐</span>
+        </div>
+      </div>
+      
+      <div class="footer-links-side">
+        <div class="links-column">
+          <h5>Quick Navigate</h5>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#explorer">Explore Landmarks</a></li>
+            <li><a href="#itinerary">Itinerary Recommender</a></li>
+            <li><a href="#history-section">Heritage Inscriptions</a></li>
+          </ul>
+        </div>
+        <div class="links-column">
+          <h5>Key Locations</h5>
+          <ul>
+            <li><a href="#explorer" onclick="selectAndScroll(0)">Gwalior Fort</a></li>
+            <li><a href="#explorer" onclick="selectAndScroll(1)">Jai Vilas Palace</a></li>
+            <li><a href="#explorer" onclick="selectAndScroll(2)">Gopachal Parvat</a></li>
+            <li><a href="#explorer" onclick="selectAndScroll(3)">Sun Temple</a></li>
+            <li><a href="#explorer" onclick="selectAndScroll(4)">Tomb of Tansen</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 Gwalior Tourism. Developed for travelers seeking architectural legacy. Sandstone Gold Theme.</p>
+    </div>
+  </footer>
+
+  <!-- Leaflet Map JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <!-- Custom JS -->
+  <script src="app.js"></script>
+</body>
+</html>
