@@ -680,6 +680,19 @@ document.addEventListener("DOMContentLoaded", () => {
       
       renderSidebarCards(filteredLandmarks);
       
+      // Filter map markers in sync with category selection
+      markers.forEach(item => {
+        if (category === "all" || item.category === category) {
+          if (!map.hasLayer(item.markerInstance)) {
+            item.markerInstance.addTo(map);
+          }
+        } else {
+          if (map.hasLayer(item.markerInstance)) {
+            map.removeLayer(item.markerInstance);
+          }
+        }
+      });
+      
       // If active landmark is not in filtered list, set the first filtered item as active
       if (filteredLandmarks.length > 0) {
         const found = filteredLandmarks.find(l => l.id === activeLandmarkId);
@@ -844,7 +857,7 @@ function initMap() {
       map.setView(place.coords, 14);
     });
 
-    markers.push({ id: place.id, markerInstance: marker });
+    markers.push({ id: place.id, category: place.category, markerInstance: marker });
   });
 }
 
