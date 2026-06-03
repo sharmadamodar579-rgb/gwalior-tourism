@@ -496,29 +496,29 @@ const landmarks = [
   },
   {
     id: 19,
-    name: "Sultangarh Waterfall (Shivpuri)",
+    name: "Baija Tal",
     category: "cultural",
-    built: "Natural Attraction",
+    built: "19th Century",
     rating: 4.6,
-    coords: [25.9653, 77.9254],
-    timings: "08:00 AM - 05:00 PM",
-    fee: "Free Entry",
-    image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80",
-    description: "A spectacular natural waterfall located 60 km from Gwalior on the Shivpuri road. The Parvati River cascades over massive rocky sandstone cliffs, forming a deep swimming pool at the bottom surrounded by a dense forest.",
+    coords: [26.2144, 78.1758],
+    timings: "10:00 AM - 10:00 PM",
+    fee: "Free entry | Boating starts at ₹50",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Moti_Mahal_Garden_and_Baija_Taal_view_from_Moti_mahal%2C_Gwalior_-_panoramio.jpg",
+    description: "A historic water reservoir constructed by Baija Bai Scindia. Today, it has been beautifully converted into a cultural park containing a large lake for boating, a dynamic art gallery, and an open-air theater situated right in the center of the water.",
     highlights: [
-      "Dramatic natural waterfall on the Parvati River",
-      "Massive sandstone boulders perfect for sitting and relaxing",
-      "Deep natural rock pool popular for swimming and diving",
-      "Surrounded by a dense, peaceful forest sanctuary"
+      "Beautiful stone water tank with a central circular pavilion structure",
+      "Pedal boating and motor boating rides available for families",
+      "Art exhibitions held inside the floating gallery space",
+      "Seating area around the lake for evening relaxation"
     ],
-    history_long: "Sultangarh Waterfall is a natural geological formation where the Parvati River cuts through the hard rock layers of the Vindhyan range. It is celebrated in regional tourism as one of the most scenic and wild waterfalls near Gwalior. In recent years, safety railings and viewing platforms have been added to let visitors enjoy the waterfall safely.",
+    history_long: "Baija Tal was originally constructed in the early 19th century by Queen Baija Bai Scindia, wife of Maharaja Daulat Rao Scindia, to serve as a sacred tank for religious festivals and royal bathing. In recent decades, the Gwalior Municipal Corporation renovated it to create a cultural center. An open-air floating theater and a bridge connecting the central island to the banks were added to host plays, concerts, and exhibitions.",
     tips: [
-      "The water current can become extremely strong and dangerous during heavy rains; strictly avoid swimming during peak monsoon.",
-      "Carry a change of clothes if you plan on swimming in the natural pool.",
-      "There are small local stalls selling hot tea and instant noodles, but carry your own heavy meals.",
-      "The road from Gwalior is a pleasant drive; start early in the morning to make it a full day trip."
+      "Visit during the evening hours when the lights reflect beautifully across the water.",
+      "Renting a pedal boat is highly recommended for couples and families.",
+      "Check the art gallery schedule to catch exhibitions of local artists.",
+      "Combine your visit with Moti Mahal, which is located directly opposite the lake."
     ],
-    trivia: "The name 'Sultangarh' comes from an ancient ruined fort located in the nearby forests, which was used as a hunting lodge by local rulers centuries ago."
+    trivia: "The open-air theater in the middle of Baija Tal is completely floating on water. Historically, the royal ladies sat in the surrounding galleries to watch festivals without being seen by the public."
   },
   {
     id: 20,
@@ -545,6 +545,110 @@ const landmarks = [
       "Combine this with a trip to the nearby Bhadawana waterfall for a complete day out."
     ],
     trivia: "The water dripping onto the Shiva Lingam in the cave flows continuously throughout the year, even during the peak dry summers when the main waterfall outside has dried up."
+  },
+  {
+    id: 21,
+    name: "Moti Mahal",
+    category: "historical",
+    built: "19th Century AD",
+    rating: 4.5,
+    coords: [26.2138, 78.1764],
+    timings: "10:00 AM - 05:00 PM (Closed Sundays/Holidays)",
+    fee: "Free Entry",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/95/Moti_Mahal.JPG",
+    description: "A grand 19th-century royal palace that served as the primary administrative seat of the Scindia rulers before the construction of Jai Vilas Palace. It is famous for its massive chambers, royal courtrooms, and walls covered with spectacular murals depicting ragas and court scenes.",
+    highlights: [
+      "Historic Maratha palace architecture with beautiful courtyards",
+      "Durbar Hall featuring wall paintings done in gold leaf and natural colors",
+      "Murals illustrating scenes from Ramayana, Mahabharata, and classical ragas",
+      "Directly overlooking the beautiful Baija Tal gardens"
+    ],
+    history_long: "Built by Maharaja Daulat Rao Scindia in 1825, Moti Mahal was designed as the grand secretariat and administrative palace of the Gwalior state. It was modeled on the Peshwa's palaces in Pune, with Maratha architectural influences. The palace contains over 300 rooms. When Gwalior merged into independent India, Moti Mahal housed various regional government offices, though its core royal chambers have been preserved for their historical value.",
+    tips: [
+      "Ask local guards to guide you to the historic court chambers where the best wall paintings are located.",
+      "The palace now houses government offices, so visit during weekdays to ensure the corridors are accessible.",
+      "No entry fee is charged, but photography in the preserved chambers may require special permission.",
+      "It is located adjacent to Baija Tal, so both can be explored together on foot."
+    ],
+    trivia: "The murals in Moti Mahal are considered masterpieces of the Gwalior school of art. They were painted using natural vegetable dyes, crushed pearls, and pure gold leaf, which has kept their colors vivid for nearly two centuries."
+  },
+  {
+    id: 22,
+    name: "Scindia Cenotaphs (Chhatris)",
+    category: "historical",
+    built: "18th - 20th Century",
+    rating: 4.6,
+    coords: [26.2025, 78.1564],
+    timings: "08:00 AM - 07:00 PM",
+    fee: "₹20 (Indians) | ₹100 (Foreigners)",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Bhim_Singh_Rana_Chhatri_Gwalior_Fort.jpg",
+    description: "Located in the heart of Gwalior at Chhatri Bazar, these are elegant, dome-shaped stone pavilions built as memorials (cenotaphs) for the deceased rulers of the Scindia dynasty. The complex features beautifully carved columns, fountains, and manicured gardens.",
+    highlights: [
+      "Stunning Maratha-Rajput style stone pavilions (Chhatris)",
+      "Intricately carved columns, ceilings, and marble pathways",
+      "Peaceful garden setting far from the busy city streets",
+      "Cenotaphs dedicated to Jiwajirao Scindia and other royal rulers"
+    ],
+    history_long: "The Chhatris (cenotaphs) were built over generations by the Scindia family to honor their ancestors. Each cenotaph is constructed at the site of cremation and houses a life-size statue of the ruler, along with a small shrine. The architecture blends Maratha, Mughal, and Rajput styles, featuring high stone plinths and ribbed domes, representing the artistic refinement of the 19th-century Gwalior court.",
+    tips: [
+      "Respect the peaceful nature of the memorials; maintain quiet during your visit.",
+      "Bring your camera as the stone details and shadows under the domes make for excellent photography subjects.",
+      "The complex is located in the bustling Chhatri Bazar; visit in the morning when the market is quiet.",
+      "Hire a local auto-rickshaw to take you to Chhatri Bazar from Maharaj Bada."
+    ],
+    trivia: "Every morning and evening, traditional pujas are performed at the cenotaphs, and food is offered to the lifelike statues of the deceased kings, maintaining a century-old royal tradition."
+  },
+  {
+    id: 23,
+    name: "Gwalior Zoo (Gandhi Zoological Park)",
+    category: "cultural",
+    built: "1922 AD",
+    rating: 4.4,
+    coords: [26.2202, 78.1795],
+    timings: "09:00 AM - 05:30 PM (Closed Fridays)",
+    fee: "₹20 (Adults) | ₹10 (Children)",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Sambhar_at_Gwalior_zoo.JPG",
+    description: "A popular family attraction located inside the Phool Bagh garden complex. Established in 1922 by the royal family, the zoo is home to rare species like the white tiger, Royal Bengal tigers, leopards, and crocodiles.",
+    highlights: [
+      "Home to rare white tigers and majestic lions",
+      "Toy train rides and children's play parks inside",
+      "A well-maintained aquatic section and snake house",
+      "Located inside the historical Phool Bagh grounds"
+    ],
+    history_long: "Gwalior Zoo was established in 1922 by Maharaja Madhavrao Scindia II as a royal menagerie. It was originally called the 'Chidiya Ghar' and hosted animals collected by the royals during their travels. In post-independence India, it was named Gandhi Zoological Park and transferred to the municipal corporation. It remains one of the oldest zoos in Central India.",
+    tips: [
+      "The zoo is closed on Fridays, so plan your visit on other days.",
+      "Go during the cooler morning hours when the animals are most active.",
+      "Buy tickets for the toy train; it is a fun experience for kids to see the park.",
+      "Do not feed or tease the animals under any circumstances."
+    ],
+    trivia: "Gwalior Zoo has played a key role in the captive breeding of white tigers. The royal family of Gwalior was historically instrumental in capturing and preserving the first wild white tigers found in Central India."
+  },
+  {
+    id: 24,
+    name: "Koteshwar Mahadev Temple",
+    category: "temples",
+    built: "Ancient (Rebuilt 19th Century)",
+    rating: 4.7,
+    coords: [26.2281, 78.1754],
+    timings: "05:00 AM - 10:00 PM",
+    fee: "Free Entry",
+    image: "https://images.unsplash.com/photo-1545128485-c400e7702796?auto=format&fit=crop&w=800&q=80",
+    description: "A historic Shiva temple located near the Gwalior Fort. It houses a massive Shiva Lingam that is worshipped by thousands of local devotees daily. The temple is especially famous for its festive atmosphere during Mahashivratri.",
+    highlights: [
+      "Huge, ancient Shiva Lingam situated in the inner sanctum",
+      "Intricate marble carvings on the temple pillars and dome",
+      "Bustling devotional market around the temple selling flowers and offerings",
+      "Vibrant evening aarti (prayers) with drums and brass bells"
+    ],
+    history_long: "Koteshwar Temple is one of Gwalior's oldest sacred sites. While the original lingam is ancient, the temple structure was grandly renovated in the 19th century by the Scindia state to accommodate the growing number of worshippers. It is considered the guardian shrine of Gwalior city, and the royal family historically visited the temple on horse-back during major Hindu festivals.",
+    tips: [
+      "Visit on a Monday to witness the intense local devotional atmosphere, though be prepared for lines.",
+      "Attend the evening aarti (around 7:30 PM) to experience the traditional music and chants.",
+      "Footwear must be left outside at the shoe counters.",
+      "Combine this visit with Gwalior Fort as it lies close to the fort's eastern approach road."
+    ],
+    trivia: "The name 'Koteshwar' translates to 'Lord of Crores' (tens of millions). According to local belief, praying at this shrine is equivalent to offering prayers at ten million other holy sites combined."
   }
 ];
 
